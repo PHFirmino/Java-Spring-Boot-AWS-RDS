@@ -1,0 +1,14 @@
+package com.aws.rds.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class RDSResponseDto {
+    private String dbInstanceIdentifier;
+}
